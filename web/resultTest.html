@@ -1,0 +1,45 @@
+PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
+
+Testing 
+EE                                                                  2 / 2 (100%)
+
+Time: 00:00.838, Memory: 36.00 MB
+
+There were 2 errors:
+
+1) Tests\Controller\DiaryControllerTest::testAddRecord
+Error: Call to undefined method App\Controller\DiaryController::getDoctrine()
+
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\src\Controller\DiaryController.php:61
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\http-kernel\HttpKernel.php:152
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\http-kernel\HttpKernel.php:74
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\http-kernel\Kernel.php:202
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\http-kernel\HttpKernelBrowser.php:65
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\framework-bundle\KernelBrowser.php:168
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\browser-kit\AbstractBrowser.php:370
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\browser-kit\AbstractBrowser.php:292
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\tests\Controller\DiaryControllerTest.php:78
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\phpunit\phpunit\phpunit:92
+
+2) Tests\Controller\DiaryControllerTest::testAddRecord2
+Error: Call to undefined method App\Controller\DiaryController::getDoctrine()
+
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\src\Controller\DiaryController.php:61
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\http-kernel\HttpKernel.php:152
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\http-kernel\HttpKernel.php:74
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\http-kernel\Kernel.php:202
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\http-kernel\HttpKernelBrowser.php:65
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\framework-bundle\KernelBrowser.php:168
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\browser-kit\AbstractBrowser.php:370
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\symfony\browser-kit\AbstractBrowser.php:292
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\tests\Controller\DiaryControllerTest.php:88
+C:\Users\22010-03-08\Documents\symfony\food-diary-to-test\vendor\phpunit\phpunit\phpunit:92
+
+ERRORS!
+Tests: 2, Assertions: 0, Errors: 2.
+
+Remaining indirect deprecation notices (1)
+
+  1x: The "Symfony\Bridge\Doctrine\Logger\DbalLogger" class implements "Doctrine\DBAL\Logging\SQLLogger" that is deprecated Use {@link \Doctrine\DBAL\Logging\Middleware} or implement {@link \Doctrine\DBAL\Driver\Middleware} instead.
+    1x in DiaryControllerTest::testAddRecord from Tests\Controller
+
